@@ -46,6 +46,10 @@ margin: 0 auto;
     padding: 0;
 }
 
+.delete-form{
+    display: inline-block;
+}
+
 .delete-icon {
     color: #BD2130;
 }
@@ -63,4 +67,50 @@ margin: 0 auto;
     max-width: 500px;
     margin: 0 auto;
     margin-top: 30px;
+}
+
+/* SHOW/ CONTATO INDIVIDUAL */
+
+#view-contact-container{
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#back-link-container{
+    display: block;
+    width: 500px;
+    margin: 30px auto 0;
+
+}
+
+#back-link{
+    border: 1px solid #007Bff;
+    color: #007BFF;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+#back-link:hover{
+    text-decoration: none;
+}
+
+/* CREATE */
+
+#create-form,
+#edit-form{
+    max-width: 500px;
+    margin: 0;
+}
+
+/* MOBILE */
+
+@media(max-width: 480px){
+    #home-link {
+       display: none; 
+    }
 }
